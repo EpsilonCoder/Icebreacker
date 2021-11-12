@@ -1,0 +1,67 @@
+#container{
+    position: relative;
+    background: url(img/space.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+.btn{
+    position: absolute;
+    z-index: 100;
+    
+}
+.left-btn{
+    margin: 5px;
+    top: 80vh;
+    left: 2vw;
+}
+.shoot-btn{
+    margin: 5px;
+    top: 80vh;
+    left: 40vw;
+}
+.right-btn{
+    top: 80vh;
+    margin: 5px;
+    left: 75vw;
+}
+.btn-image{
+    width: 10vh;
+    height: 10vh;
+}
+#spaceship{
+    
+    position: absolute;
+    top: 60vh;
+    left: 33vw;
+}
+#spaceship-img{
+    width: 20vh;
+    height: 20vh;
+}
+.rocket{
+position: absolute;
+}
+.rocket-img{
+    width: 3vh;
+    height: 5vh;
+}
+.stone{
+    position: absolute;
+}
+p{
+    position: absolute;
+   
+    left: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: chartreuse;
+}
+
+
+body{
+    
+    overflow-x:hidden; 
+}
